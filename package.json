@@ -1,7 +1,6 @@
 {
   "name": "projeto-nodejs-rest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +10,20 @@
   "license": "ISC",
   "dependencies": {
     "consign": "^0.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohitallo/web2-node-aula1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaohitallo/web2-node-aula1/issues"
+  },
+  "homepage": "https://github.com/joaohitallo/web2-node-aula1#readme",
+  "description": ""
 }
